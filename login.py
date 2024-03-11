@@ -27,7 +27,7 @@ def loginpage():
     if choice == "Login":
         email = st.text_input("Email Address")
         password = st.text_input("Password", type="password")
-        if st.button("Login") #, on_click=login)
+        if st.button("Login"): #, on_click=login)
             st.success("You are logged in!")
 
     # Sign up info for new users
